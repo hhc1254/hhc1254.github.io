@@ -25,15 +25,7 @@
                <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
                <link rel="stylesheet" href="css/normalize.min.css">
                <link rel="stylesheet" href="css/main.css">
-               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-               <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-               <script src="js/vendor/jquery.hashchange.min.js"></script>
-               <script src="js/vendor/jquery.easytabs.min.js"></script>
-               <script src="js/main.js"></script>
-               <!--[if lt IE 9]>
-               <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-               <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-               <![endif]-->
+               <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
             </head>
             <body class="bg-fixed bg-1">
                <div class="main-container">
@@ -74,7 +66,7 @@
                               <section class="clearfix">
                                  <div class="g2">
                                     <div class="photo">
-                                       <img src="images/profile.jpg" alt="Lucky Chen">
+                                       <img data-anijs="if: click, do: hinge animated" src="images/profile.jpg" alt="Lucky Chen">
                                     </div>
                                     <div>
                                        <h2 class="black">
@@ -83,10 +75,10 @@
                                        <h4 class="black">
                                           Developer / Content Creator
                                        </h4>
-                                       <p>
+                                       <p class="overflow">
                                           Hello! Your time is valuable so I'll make this short. My name is Lucky, I'm a Software Developer by trade and 
                                           a YouTuber on my spare time. I believe in working smarter not harder.
-                                          Feel free to click around if it interests you!
+                                             Feel free to click around if it interests you (just don't touch the picture, it's very fragile)!
                                        </p>
                                     </div>
                                  </div>
@@ -109,7 +101,7 @@
                                  <div class="contact-info">
                                     <div class="g1">
                                        <div class="item-box clearfix">
-                                          <i class="icon-envelope"></i>
+                                          <i data-anijs="if: mouseover, do: tada animated" class="icon-envelope"></i>
                                           <div class="item-data">
                                              <h3><a href="mailto:hhc1254@g.rit.edu">hhc1254@g.rit.edu</a></h3>
                                              <p>Email</p>
@@ -118,7 +110,7 @@
                                     </div>
                                     <div class="g1">
                                        <div class="item-box clearfix">
-                                          <i class="icon-linkedin"></i>
+                                          <i data-anijs="if: mouseover, do: tada animated" class="icon-linkedin"></i>
                                           <div class="item-data">
                                              <h3><a href="https://www.linkedin.com/in/huangchen1994/">Lucky Chen</a></h3>
                                              <p>LinkedIn</p>
@@ -127,7 +119,7 @@
                                     </div>
                                     <div class="g1">
                                        <div class="item-box clearfix">
-                                          <i class="icon-youtube"></i>
+                                          <i data-anijs="if: mouseover, do: tada animated" class="icon-youtube"></i>
                                           <div class="item-data">
                                              <h3><a href="https://www.youtube.com/c/GrainOfRice">@GrainOfRice</a></h3>
                                              <p>YouTube</p>
@@ -456,7 +448,7 @@
                                     <div class="sny-icon-box">
                                        <div class="sny-icon">
                                           <a href="https://www.linkedin.com/in/bryanfrench/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlB73NlLkTyWGtfDaU80pDg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile">
-                                          <img src="images/bryan.jpg" alt="Bryan French">
+                                          <img data-anijs="if: mouseover, do: swing animated; if: click, do: flipOutY animated" src="images/bryan.jpg" alt="Bryan French">
                                           </a>
                                        </div>
                                        <div class="sny-icon-content">
@@ -475,7 +467,7 @@
                                     <div class="sny-icon-box">
                                        <div class="sny-icon">
                                           <a href="https://www.linkedin.com/in/davidjfine1/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlB73NlLkTyWGtfDaU80pDg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile">
-                                          <img src="images/david.jpg" alt="David Fine">
+                                          <img data-anijs="if: mouseover, do: swing animated; if: click, do: flipOutY animated" src="images/david.jpg" alt="David Fine">
                                           </a>
                                        </div>
                                        <div class="sny-icon-content">
@@ -494,7 +486,7 @@
                                     <div class="sny-icon-box">
                                        <div class="sny-icon">
                                           <a href="https://www.linkedin.com/in/john-robinson-2875b83a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlB73NlLkTyWGtfDaU80pDg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile">
-                                          <img src="images/john.jpg" alt="John Robinson">
+                                          <img data-anijs="if: mouseover, do: swing animated; if: click, do: flipOutY animated" src="images/john.jpg" alt="John Robinson">
                                           </a>
                                        </div>
                                        <div class="sny-icon-content">
@@ -516,7 +508,7 @@
                                     <div class="sny-icon-box">
                                        <div class="sny-icon">
                                           <a href="https://www.linkedin.com/in/dianna-winslow-phd-38920814/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlB73NlLkTyWGtfDaU80pDg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile">
-                                          <img src="images/dianna.jpg" alt="Dianna Winslow">
+                                          <img data-anijs="if: mouseover, do: swing animated; if: click, do: flipOutY animated" src="images/dianna.jpg" alt="Dianna Winslow">
                                           </a>
                                        </div>
                                        <div class="sny-icon-content">
@@ -537,7 +529,7 @@
                                     <div class="sny-icon-box">
                                        <div class="sny-icon">
                                           <a href="https://www.linkedin.com/in/todd-duncan-91aa4b19/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlB73NlLkTyWGtfDaU80pDg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile">
-                                          <img src="images/todd.jpg" alt="Todd Duncan">
+                                          <img data-anijs="if: mouseover, do: swing animated; if: click, do: flipOutY animated" src="images/todd.jpg" alt="Todd Duncan">
                                           </a>
                                        </div>
                                        <div class="sny-icon-content">
@@ -555,7 +547,7 @@
                                     <div class="sny-icon-box">
                                        <div class="sny-icon">
                                           <a href="https://www.linkedin.com/in/katherina-thompson-b6679a87/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlB73NlLkTyWGtfDaU80pDg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile">
-                                          <img src="images/katherina.jpg" alt="Katherina Thompson">
+                                          <img data-anijs="if: mouseover, do: swing animated; if: click, do: flipOutY animated" src="images/katherina.jpg" alt="Katherina Thompson">
                                           </a>
                                        </div>
                                        <div class="sny-icon-content">
@@ -634,4 +626,14 @@
                </div>
                <!-- #main-container -->
             </body>
-         </html>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+            <script src="js/vendor/jquery.hashchange.min.js"></script>
+            <script src="js/vendor/jquery.easytabs.min.js"></script>
+            <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+            <script src="js/main.js"></script>
+            <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+            <![endif]-->
+      </html>
