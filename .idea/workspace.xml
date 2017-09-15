@@ -4,6 +4,7 @@
     <list default="true" id="f900ce7a-9cad-43a7-9228-da22154c1e0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +19,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+            <state relative-caret-position="98">
+              <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="40" />
               <folding>
-                <marker date="1505492796000" expanded="true" signature="74:78" ph="..." />
-                <marker date="1505492796000" expanded="true" signature="146:153" ph="..." />
-                <marker date="1505492796000" expanded="true" signature="220:230" ph="..." />
+                <marker date="1505496021000" expanded="true" signature="74:78" ph="..." />
+                <marker date="1505496021000" expanded="true" signature="146:153" ph="..." />
+                <marker date="1505496021000" expanded="true" signature="220:230" ph="..." />
               </folding>
             </state>
           </provider>
@@ -32,8 +33,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="663" column="3" lean-forward="false" selection-start-line="663" selection-start-column="3" selection-end-line="663" selection-end-column="3" />
+            <state relative-caret-position="-38">
+              <caret line="661" column="12" lean-forward="false" selection-start-line="661" selection-start-column="12" selection-end-line="661" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -571,16 +572,15 @@
       <updated>1503421172252</updated>
       <workItem from="1503421176191" duration="8643000" />
       <workItem from="1504620072127" duration="2248000" />
-      <workItem from="1505487623266" duration="5618000" />
+      <workItem from="1505487623266" duration="7271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16509000" />
+    <option name="totallyTimeSpent" value="18162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1234" height="736" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -591,7 +591,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34186748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34186748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3922204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -752,20 +752,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        <state relative-caret-position="98">
+          <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="40" />
           <folding>
-            <marker date="1505492796000" expanded="true" signature="74:78" ph="..." />
-            <marker date="1505492796000" expanded="true" signature="146:153" ph="..." />
-            <marker date="1505492796000" expanded="true" signature="220:230" ph="..." />
+            <marker date="1505496021000" expanded="true" signature="74:78" ph="..." />
+            <marker date="1505496021000" expanded="true" signature="146:153" ph="..." />
+            <marker date="1505496021000" expanded="true" signature="220:230" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="663" column="3" lean-forward="false" selection-start-line="663" selection-start-column="3" selection-end-line="663" selection-end-column="3" />
+        <state relative-caret-position="-38">
+          <caret line="661" column="12" lean-forward="false" selection-start-line="661" selection-start-column="12" selection-end-line="661" selection-end-column="12" />
           <folding />
         </state>
       </provider>
