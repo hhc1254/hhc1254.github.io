@@ -657,16 +657,10 @@ Change widths as necessary
   }
 
   .photo {
-    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     width:100%;
     height: 100%;
-  }
-
-  .img {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
