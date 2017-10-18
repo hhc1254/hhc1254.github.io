@@ -10,7 +10,23 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
+var button = document.getElementsByClassName("projects");
+var i;
 
+for (i = 0; i < button.length; i++) {
+    button[i].onclick = function(){
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
 
 particlesJS('particles-js',
   
@@ -132,3 +148,4 @@ particlesJS('particles-js',
   }
 
 );
+
